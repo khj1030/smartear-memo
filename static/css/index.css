@@ -23,6 +23,11 @@ body{
   height: 100%;
 } */
 
+/* .login_background{
+  background-color: orange;
+  width:100%;
+  height: 100vh;
+} */
 .login_background img{
   /* background-image: url('static/image/background.jpg'); */
   /* background-color: orange; */
@@ -49,7 +54,7 @@ body{
 }
 
 .page_explain{
-  font-size: 1rem;
+  font-size: 0.9vw;
   font-weight: 500;
   color: rgb(124, 124, 124);
   margin-bottom: 1.5vh;
@@ -65,7 +70,7 @@ form{
 }
 
 label{
-  font-size: 0.8rem;
+  font-size: 0.75vw;
 }
 
 .form-control{
@@ -74,6 +79,8 @@ label{
 
 .login-btn{
   border-radius: 3rem;
+  font-size: 0.9vw;
+  font-weight: 500;
   width: 100%;
   background-color: blueviolet;
 }
@@ -133,6 +140,6 @@ input.custom {
   align-items: right;
   text-align: right;
   color:rgb(124, 124, 124);
-  font-size: 0.8rem;
+  font-size: 0.75vw;
   margin-top: 1.5vh;
 }
