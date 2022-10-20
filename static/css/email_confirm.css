@@ -74,3 +74,11 @@ form{
   width: 100%;
   background-color: blueviolet;
 }
+
+.btn-primary{
+  border-color: blueviolet;
+}
+.btn-primary:hover{
+  background-color: blueviolet;
+
+}

@@ -51,6 +51,7 @@ body{
   height: 50vh;
   padding-right: 1vw;
   margin: 2vh 0px 2vh 0;
+  font-size: 0.8vw;
 }
 
 .text_scroll::-webkit-scrollbar {
