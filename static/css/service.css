@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  overflow:hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: none !important;
+}
+
+.login_background img{
+  background-size: contain;
+  height: calc(var(--vh, 1vh) * 100);
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.login_contents{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.login_box{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.page_title{
+  font-size: 4vw;
+  letter-spacing: -0.2vw;
+  font-weight: 900;
+}
+
+.text_scroll{
+  overflow: auto;
+  height: 50vh;
+  padding-right: 1vw;
+  margin: 2vh 0px 2vh 0;
+}
+
+.text_scroll::-webkit-scrollbar {
+  width: 0.3vw;
+}
+.text_scroll::-webkit-scrollbar-thumb {
+  background-color: #2f3542;
+  border-radius: 0.5rem;
+}
+.text_scroll::-webkit-scrollbar-track {
+  border-radius: 0.5rem;
+}
+
+.info_input{
+  width: 100%;
+}
+
+form{
+  display: grid;
+  gap: 1vh;
+}
+
+.button_box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-btn{
+  border-radius: 3rem;
+  font-size: 0.9vw;
+  font-weight: 500;
+  width: 47%;
+}
+
+.form-check{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1vh;
+}
+
+.form-check-label{
+  font-size: 0.75vw;
+  margin-bottom:0.3vh;
+}
+
+.back-btn{
+  border-color: blueviolet;
+  background-color: white;
+  color: blueviolet;
+}
+.back-btn:hover{
+  background-color: white;
+  color: blueviolet;
+}
+
+.forward-btn{
+  border-color: blueviolet;
+  background-color: blueviolet;
+}
+.forward-btn:hover{
+  background-color: blueviolet;
+
+}
